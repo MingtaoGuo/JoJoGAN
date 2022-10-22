@@ -29,9 +29,9 @@ All dependencies for defining the environment are provided in `environment.yaml`
 
 ### Train
 - Download the e4e model from [e4e_ffhq_encode.pt](https://github.com/omertov/encoder4editing)
-- Download the stylegan2 model from [stylegan2]() 
-- Download the yolo5s-face model from [yolo5s-face]() 
-- Put e4e and stylegan2 models into the folder **saved_models**
+- Download the stylegan2 model from [stylegan2](https://drive.google.com/file/d/1-C0LNaK5LT3qV0-VXnnJL_Vu6gErksfm/view?usp=sharing) 
+- Download the yolo5s-face model from [yolo5s-face](https://drive.google.com/file/d/1gcXDs4BBIOTc7RrlGrnSrJHn0wcuW_0z/view?usp=sharing) 
+- Put e4e, stylegan2 and yolo5s-face models into the folder **saved_models**
 ``` 
 python train.py --styles_dir ./styles --num_itr 500  
 ```
